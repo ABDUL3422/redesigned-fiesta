@@ -3,9 +3,9 @@ import pymongo
 from pymongo import MongoClient
 from flask_cors import CORS
 
-#client = MongoClient("connection string")
-#db = client["database_name"]
-#col = db["collection_name"]
+client = MongoClient("connection string")
+db = client["database_name"]
+col = db["collection_name"]
 
 app = Flask(__name__)
 CORS(app)
